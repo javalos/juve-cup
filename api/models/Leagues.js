@@ -16,11 +16,18 @@ module.exports = {
     country : {
       type: "string",
       required: true
+    },
+    teams: {
+        collection: 'Teams',
+        via: 'league',
+        defaultsTo: []
+    },
+    games: {
+        collection: 'Games',
+        via: 'league',
+        defaultsTo: []
     }
     // Juventus was founded by Eugenio and Enrico Canfari in 1897.
-
-    // Add `teams` property here to let Juventus join the Calcio. Look for associations.
-
   }
 };
 

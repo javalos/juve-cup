@@ -1,0 +1,10 @@
+[
+    {
+        "id": 1,
+        "league": "1",
+        "homeScore": 2,
+        "awayScore": 0,
+        "homeTeam": 1,
+        "awayTeam": 2
+    }
+]

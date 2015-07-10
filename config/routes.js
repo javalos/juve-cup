@@ -47,7 +47,7 @@ module.exports.routes = {
   ***************************************************************************/
 
   // Juventus Biggest Home Victory: 9 - 1 vs. Inter (Serie A 97/98)
-  //'put  /leagues/:leagueId/addTeam/:teamId': 'LeaguesController.addTeam',
+  'put  /leagues/:leagueId/addTeam/:teamId': 'LeaguesController.addTeam',
 
 
 };

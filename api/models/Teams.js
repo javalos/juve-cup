@@ -21,9 +21,10 @@ module.exports = {
     player : {
       type: "string",
       required: true
+    },
+    league : {
+      model: "Leagues"
     }
     // Juventus is based on Turin, Italy.
-
-    // Add `league` property here to let Juventus join the Calcio. Look for associations.
   }
 };

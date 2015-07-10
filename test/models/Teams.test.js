@@ -14,7 +14,7 @@ describe('Teams', function() {
 
   it ('should has a name', function(done) {
 
-    Teams.create({name: "Juventus"})
+    Teams.create({name: "Juventus", country: "Italy", player: "Avalos"})
       .then(function(teams) {
         assert.isDefined(teams.name);
 
@@ -25,7 +25,7 @@ describe('Teams', function() {
 
   it ('should has a country', function(done) {
 
-    Teams.create({country: "Italy"})
+    Teams.create({name: "Juventus", country: "Italy", player: "Avalos"})
       .then(function(teams) {
         assert.isDefined(teams.country);
 
@@ -36,7 +36,7 @@ describe('Teams', function() {
 
   it ('should has a player', function(done) {
 
-    Teams.create({player: "Avalos"})
+    Teams.create({name: "Juventus", country: "Italy", player: "Avalos"})
       .then(function(teams) {
         assert.isDefined(teams.player);
 

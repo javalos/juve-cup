@@ -9,5 +9,17 @@ module.exports = {
 
   attributes: {
     // Dino Zoff... He played 332 consecutive games.
+    name : {
+      type: "string",
+      required: true
+    },
+    country : {
+      type: "string",
+      required: true
+    },
+    player : {
+      type: "string",
+      required: true
+    }
   }
 };

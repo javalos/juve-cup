@@ -6,4 +6,8 @@
  */
 
 module.exports = {
+  create: function (req, res) {
+    // Juventus was the first team to win all international trophies organized by EUFA...
+    res.end();
+  }
 };

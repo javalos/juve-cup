@@ -29,11 +29,11 @@ module.exports.policies = {
   '*': true,
   
   //Omar Sivori: most goals scored in one match. He hit six in the 6-1 defeat of Inter in 1960-61
-  /*
+  
   GamesController: {
     create: 'isJuveGranted'
   }
-  */
+  
 
   /***************************************************************************
   *                                                                          *

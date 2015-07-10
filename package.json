@@ -23,9 +23,18 @@
     "grunt-contrib-less": "0.11.1",
     "grunt-contrib-coffee": "~0.10.1"
   },
+  "devDependencies": {
+    "barrels": "^1.4.1",
+    "chai": "^3.0.0",
+    "freeport": "^1.0.4",
+    "mocha": "^2.2.5",
+    "sails-memory": "^0.10.3",
+    "supertest": "^1.0.1"
+  },
   "scripts": {
     "start": "node app.js",
-    "debug": "node debug app.js"
+    "debug": "node debug app.js",
+    "test": "PORT=9999 NODE_ENV=test mocha -R spec -b --recursive"
   },
   "main": "app.js",
   "repository": {

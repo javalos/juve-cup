@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Juventus",
+    "country": "Italy",
+    "player" : "Player 1"
+  },
+  {
+    "name": "Barcelona",
+    "country": "Spain",
+    "player": "Player 2"
+  }
+]

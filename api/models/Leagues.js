@@ -1,5 +1,5 @@
 /**
-* Teams.js
+* Leagues.js
 *
 * @description :: TODO: You might write a short summary of how this model works and what it represents here.
 * @docs        :: http://sailsjs.org/#!documentation/models
@@ -8,7 +8,6 @@
 module.exports = {
 
   attributes: {
-    // Dino Zoff... He played 332 consecutive games.
     name : {
       type: "string",
       required: true,
@@ -17,13 +16,11 @@ module.exports = {
     country : {
       type: "string",
       required: true
-    },
-    player : {
-      type: "string",
-      required: true
     }
-    // Juventus is based on Turin, Italy.
+    // Juventus was founded by Eugenio and Enrico Canfari in 1897.
 
-    // Add `league` property here to let Juventus join the Calcio. Look for associations.
+    // Add `teams` property here to let Juventus join the Calcio. Look for associations.
+
   }
 };
+

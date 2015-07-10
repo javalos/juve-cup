@@ -1,0 +1,12 @@
+[
+  {
+    "id": "1",
+    "name": "Calcio",
+    "country": "Italy"
+  },
+  {
+    "id": "2",
+    "name": "MLS",
+    "country": "USA"
+  }
+]

@@ -1,9 +1,9 @@
 var assert = require('chai').assert;
 
-describe('Teams', function() {
+describe('Leagues', function() {
   it ('should not be empty', function(done) {
 
-    Teams.find()
+    Leagues.find()
       .then(function(teams) {
         teams.length.should.not.be.eql(0);
 
@@ -14,7 +14,7 @@ describe('Teams', function() {
 
   it ('should has a name', function(done) {
 
-    Teams.create({name: "Milan", country: "Italy", player: "Avalos"})
+    Leagues.create({name: "Liga MX", country: "Mexico"})
       .then(function(teams) {
         assert.isDefined(teams.name);
 
@@ -25,20 +25,9 @@ describe('Teams', function() {
 
   it ('should has a country', function(done) {
 
-    Teams.create({name: "Inter", country: "Italy", player: "Avalos"})
+    Leagues.create({name: "La Liga", country: "Spain"})
       .then(function(teams) {
         assert.isDefined(teams.country);
-
-        done();
-      })
-      .catch(done);
-  });
-
-  it ('should has a player', function(done) {
-
-    Teams.create({name: "Roma", country: "Italy", player: "Avalos"})
-      .then(function(teams) {
-        assert.isDefined(teams.player);
 
         done();
       })

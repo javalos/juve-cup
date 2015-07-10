@@ -17,7 +17,7 @@ describe('TeamsController', function() {
     it('should return success', function (done) {
       request(sails.hooks.http.app)
         .post('/teams')
-        .send({name: "Juventus", country: "Italy", player: "Avalos"})
+        .send({name: "Liverpool", country: "England", player: "Johel"})
         .expect(200)
         .end(function (err, res) {
           if (err) {
